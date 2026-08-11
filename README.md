@@ -1,4 +1,3 @@
-# village-development-platform
 # Village Development Platform 🌱
 
 A technology-driven platform designed to help rural communities access public services, private local services, and essential agricultural resources through a single digital ecosystem.
