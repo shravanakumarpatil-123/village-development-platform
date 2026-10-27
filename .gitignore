@@ -1,0 +1,28 @@
+# Local environments and dependencies
+**/venv/
+**/.venv/
+**/node_modules/
+
+# Environment configuration and local runtime data
+**/.env
+**/.env.*
+!**/.env.example
+Backend/uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local ML datasets and generated artifacts
+ML/Skin/
+ML/train_images/
+ML/test_images/
+ML/train.csv
+ML/test.csv
+ML/sample_submission.csv
+ML/*.npz
+ML/model_skin.joblib

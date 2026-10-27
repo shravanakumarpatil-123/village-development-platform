@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Village Development Platform Runtime Architecture",
+    "output": "village-platform-architecture.html",
+    "quality_profile": "showcase"
+  },
+  "components": [
+    { "id": "users", "type": "external", "label": "Village Users", "sublabel": "Browser / mobile", "pos": [40, 300], "size": [120, 60] },
+    { "id": "auth", "type": "security", "label": "JWT Auth", "sublabel": "OAuth2 + token validation", "pos": [40, 110], "size": [120, 64] },
+    { "id": "frontend", "type": "frontend", "label": "React Frontend", "sublabel": "Vite + React Router", "pos": [250, 300], "size": [130, 60] },
+    { "id": "api", "type": "frontend", "label": "Shared API Client", "sublabel": "fetch wrapper", "pos": [470, 300], "size": [150, 60] },
+    { "id": "backend", "type": "backend", "label": "FastAPI Backend", "sublabel": "API routers", "pos": [700, 300], "size": [150, 60] },
+    { "id": "db", "type": "database", "label": "PostgreSQL", "sublabel": "application data", "pos": [900, 300], "size": [150, 60] },
+    { "id": "uploads", "type": "cloud", "label": "Uploads", "sublabel": "complaint + screening files", "pos": [900, 490], "size": [150, 60] },
+    { "id": "classifier", "type": "backend", "label": "Complaint Classifier", "sublabel": "joblib model", "pos": [700, 490], "size": [150, 60] }
+  ],
+  "boundaries": [
+    { "kind": "region", "label": "Client runtime", "wraps": ["users", "frontend", "api"] },
+    { "kind": "region", "label": "Server runtime", "wraps": ["auth", "backend", "db", "uploads", "classifier"] }
+  ],
+  "connections": [
+    { "id": "users-to-frontend", "from": "users", "to": "frontend", "label": "browser app", "labelDy": -28 },
+    { "id": "jwt-verification", "from": "auth", "to": "backend", "label": "verify JWT", "variant": "security", "fromSide": "right", "toSide": "left", "labelDy": -28 },
+    { "id": "frontend-to-api", "from": "frontend", "to": "api", "label": "REST requests", "labelDy": -28 },
+    { "id": "api-to-backend", "from": "api", "to": "backend", "label": "JSON + Bearer token", "labelDy": 90 },
+    { "id": "backend-to-db", "from": "backend", "to": "db", "label": "SQLAlchemy ORM", "labelDy": -28 },
+    { "id": "backend-to-uploads", "from": "backend", "to": "uploads", "label": "store / serve files", "variant": "dashed", "fromSide": "bottom", "toSide": "top", "labelAt": [880, 560] },
+    { "id": "backend-to-classifier", "from": "backend", "to": "classifier", "label": "predict department", "fromSide": "bottom", "toSide": "top", "labelAt": [760, 560] }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Main user flow", "items": ["Users log in via the React app and access protected API routes with a JWT.", "The FastAPI backend persists records in PostgreSQL and serves uploaded complaint or screening files."] },
+    { "dot": "emerald", "title": "Modules in use", "items": ["The backend includes auth, complaints, services, agriculture, government, and healthcare routers.", "The complaint classifier is wired into the community flow; the healthcare AI path is still a stub."] },
+    { "dot": "rose", "title": "Runtime data flow", "items": ["Frontend requests pass through the shared API client to the backend.", "Upload files are stored on disk while data records live in PostgreSQL."] }
+  ]
+}

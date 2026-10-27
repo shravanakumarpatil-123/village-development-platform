@@ -1,0 +1,176 @@
+text,department
+"Street lights are not working on Main Road",Electricity
+"Power cut for the last 3 days in our area",Electricity
+"Transformer near the school is sparking",Electricity
+"Electricity bill is wrongly charged this month",Electricity
+"Voltage fluctuation has damaged my refrigerator",Electricity
+"Electric pole is leaning dangerously after the storm",Electricity
+"No power supply in our colony since morning",Electricity
+"Meter reading has not been taken for two months",Electricity
+"Wires are hanging loose near the bus stop",Electricity
+"Frequent power tripping during evening hours",Electricity
+"New electricity connection application is pending for weeks",Electricity
+"Streetlight near the park has been flickering for days",Electricity
+"Short circuit caused a small fire in our street",Electricity
+"Electric shock felt while touching the water pump switch",Electricity
+"Substation transformer making loud humming noise",Electricity
+"Power supply restored but voltage is too low to run fans",Electricity
+"Old wiring in the community hall needs urgent replacement",Electricity
+"Nobody has fixed the broken street light pole for a month",Electricity
+"Electricity department is not responding to our complaint calls",Electricity
+"Load shedding happens every day without any notice",Electricity
+"My electricity bill shows double the units I actually used",Electricity
+"Underground cable fault has cut power to five houses",Electricity
+"The new streetlights installed are not switching on at night",Electricity
+"Power line fell down after heavy rain and is blocking the lane",Electricity
+"Inverter cannot charge because power cuts are too frequent",Electricity
+"No water supply for the past week",Water
+"Water pipeline is leaking near the market",Water
+"Drinking water is contaminated and smells bad",Water
+"Overhead tank is not being filled on schedule",Water
+"Water tanker did not arrive as promised this week",Water
+"Borewell near the temple has stopped working",Water
+"Muddy water is coming from the taps every morning",Water
+"Water pressure is too low to reach the upper floors",Water
+"Leaking pipe is flooding the street every night",Water
+"Hand pump in the colony is broken since last month",Water
+"Water supply timing has changed without any announcement",Water
+"Sewage water is mixing with our drinking water line",Water
+"New water connection request has been pending for months",Water
+"Public water tap near the school has been dry for days",Water
+"Water bill charges are much higher than usual this quarter",Water
+"Pipeline burst is wasting thousands of liters of water daily",Water
+"Water in our area tastes salty and unsafe to drink",Water
+"Community well has dried up completely this summer",Water
+"Water tank overflow is causing water logging on the road",Water
+"No one has cleaned the water storage tank in over a year",Water
+"Irrigation canal water is not reaching the far fields",Water
+"Water meter is not working and bills are being estimated wrongly",Water
+"Broken valve is causing water wastage near the main road",Water
+"Water supply comes only for ten minutes a day now",Water
+"Rusty water is damaging our clothes and utensils",Water
+"Garbage is not collected for many days",Sanitation
+"Public toilet near the bus stand is unclean",Sanitation
+"Open drainage is causing bad smell in the colony",Sanitation
+"Stray animals are creating waste near the market",Sanitation
+"Garbage truck has skipped our street for two weeks",Sanitation
+"Drainage is blocked and water is stagnating outside our homes",Sanitation
+"Dead animal lying on the roadside for three days now",Sanitation
+"Public dustbins are overflowing and attracting flies",Sanitation
+"Sweeper has not come to clean our lane this month",Sanitation
+"Mosquito breeding due to stagnant water in open drains",Sanitation
+"Community toilet has no water supply or lighting",Sanitation
+"Waste is being burned openly causing smoke in the neighborhood",Sanitation
+"Drain near the school is overflowing with sewage",Sanitation
+"No proper dustbins provided in our locality",Sanitation
+"Foul smell from the dumping ground is unbearable",Sanitation
+"Public washroom doors are broken and unsafe for women",Sanitation
+"Cattle waste is piling up near the village entrance",Sanitation
+"Sanitation workers have gone on leave without replacement",Sanitation
+"Plastic waste is clogging the drainage system",Sanitation
+"Septic tank near our house is overflowing into the street",Sanitation
+"Rats and insects are increasing due to uncleared garbage",Sanitation
+"No cleaning has been done in the public park for months",Sanitation
+"Sewage pipe leakage is spreading disease near our homes",Sanitation
+"Garbage collection vehicle comes too early before we can dispose",Sanitation
+"Community toilet complex has been locked for over a week",Sanitation
+"Road near the temple has big potholes",Roads
+"Newly built road is already cracking",Roads
+"Streetlight pole fell down and is blocking the road",Roads
+"Bridge connecting the two villages needs repair",Roads
+"Road has huge craters causing accidents during rains",Roads
+"Footpath near the school is completely broken",Roads
+"No speed breakers near the crowded market area",Roads
+"Road construction has been incomplete for over a year",Roads
+"Culvert on the village road has collapsed after floods",Roads
+"Dust from the unpaved road is affecting our health",Roads
+"Traffic signal at the main junction is not working",Roads
+"Road divider is damaged and causing wrong-side driving",Roads
+"Manhole cover is missing and it's a danger to pedestrians",Roads
+"Narrow road cannot handle the increased vehicle traffic",Roads
+"Road repair work has been abandoned midway by contractors",Roads
+"No streetlights along the highway stretch near our village",Roads
+"Potholes on the bridge are damaging vehicle tires",Roads
+"Road signs are missing at the dangerous curve",Roads
+"Waterlogging on the road makes it impassable during monsoon",Roads
+"Newly laid road has already developed cracks within a month",Roads
+"Zebra crossing near the school has faded completely",Roads
+"Road widening project has stalled without any update",Roads
+"Broken railing on the bridge is a safety hazard",Roads
+"Unfinished flyover construction is causing daily traffic jams",Roads
+"Village approach road gets completely flooded every monsoon",Roads
+"Government school building roof is leaking",Education
+"No teachers available in the primary school",Education
+"School has no proper toilets for girls",Education
+"Mid-day meal quality is very poor",Education
+"School building has cracks and is unsafe for children",Education
+"Textbooks have not been distributed even after two months",Education
+"No science laboratory equipment available in the high school",Education
+"School has no boundary wall making it unsafe for kids",Education
+"Teacher absenteeism is affecting our children's studies",Education
+"Government school has no electricity or fans in classrooms",Education
+"School bus is not coming regularly for remote villages",Education
+"Library in the school has almost no books left",Education
+"Playground equipment in the school is broken and rusted",Education
+"Scholarship payment for my daughter has been delayed for months",Education
+"No computer lab facility in our village school",Education
+"Classroom furniture is broken and students sit on the floor",Education
+"School admission process is unnecessarily complicated this year",Education
+"No drinking water facility available in the school premises",Education
+"Anganwadi center has not received supplies for weeks",Education
+"Exam results have not been declared even after two months",Education
+"School has not conducted classes properly since the transfer of teacher",Education
+"Special needs children have no support staff in our school",Education
+"Overcrowded classrooms are affecting the quality of teaching",Education
+"School roof collapsed partially during last week's rain",Education
+"No sports teacher appointed despite repeated requests",Education
+"Primary health center has no doctor available",Health
+"Ambulance did not arrive on time for emergency",Health
+"Medicines are out of stock at the health center",Health
+"Vaccination camp was cancelled without notice",Health
+"Health center staff are rude and unhelpful to patients",Health
+"No nurse available at the primary health center after evening",Health
+"Free medical camp promised last month never happened",Health
+"Health center has no proper equipment to handle emergencies",Health
+"Dengue cases are rising but no fogging has been done",Health
+"Maternity ward at the hospital lacks basic facilities",Health
+"Government hospital is overcharging for medicines",Health
+"No specialist doctor visits our village health center",Health
+"Health workers have not visited for the child immunization schedule",Health
+"Hospital toilets are extremely unhygienic and unusable",Health
+"Blood bank at the district hospital is often out of stock",Health
+"Health center building has no proper ventilation or lighting",Health
+"Patients have to wait for hours without any doctor attending them",Health
+"No mental health support services available in our area",Health
+"Elderly care facility visits have stopped since last quarter",Health
+"Health insurance claims are being rejected without valid reason",Health
+"Rabies vaccine unavailable after a stray dog bite incident",Health
+"Sanitation issues at the hospital are increasing infection risk",Health
+"No X-ray or diagnostic facility at the local health center",Health
+"Health checkup camp for elderly citizens has been postponed repeatedly",Health
+"Newborn screening tests are not available at our hospital",Health
+"Ration shop owner is denying subsidized grains",PublicDistribution
+"Ration card details are not updated in the system",PublicDistribution
+"Long queues and no proper token system at ration shop",PublicDistribution
+"Kerosene is not being supplied this month",PublicDistribution
+"Ration shop remains closed most days of the week",PublicDistribution
+"Quality of rice provided under the scheme is very poor",PublicDistribution
+"New ration card application has been pending for six months",PublicDistribution
+"Ration dealer is demanding extra money for grains",PublicDistribution
+"Sugar quota has not been supplied for the last two months",PublicDistribution
+"Weighing scale at the ration shop seems to be tampered with",PublicDistribution
+"Ration shop timing is inconvenient for working families",PublicDistribution
+"Name missing from the ration list despite valid documents",PublicDistribution
+"Ration shop owner is favoring certain families over others",PublicDistribution
+"Grains supplied under the scheme have insects and are spoiled",PublicDistribution
+"Aadhaar linking issue is preventing me from getting ration",PublicDistribution
+"Ration shop does not provide any receipt for purchases",PublicDistribution
+"Wheat quota reduced without any official explanation",PublicDistribution
+"Ration shop has run out of stock for the third month in a row",PublicDistribution
+"Elderly citizens struggle since there's no home delivery for ration",PublicDistribution
+"Fair price shop is selling ration items in the open market instead",PublicDistribution
+"Ration list update request has not been processed by the office",PublicDistribution
+"Oil supply under the public distribution scheme has stopped completely",PublicDistribution
+"Ration shop dealer refuses to give ration without bribe",PublicDistribution
+"Family members added after marriage are not reflecting in the ration card",PublicDistribution
+"Distribution of ration is delayed every month without any reason",PublicDistribution
